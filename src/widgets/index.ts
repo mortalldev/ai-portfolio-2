@@ -1,0 +1,13 @@
+export { Preloader } from './preloader';
+export { CustomCursor } from './custom-cursor';
+export { ScrollProgress } from './scroll-progress';
+export { Header } from './header';
+export { Hero } from './hero';
+export { Stats } from './stats';
+export { About } from './about';
+export { Skills } from './skills';
+export { Projects } from './projects';
+export { Experience } from './experience';
+export { Contact } from './contact';
+export { Footer } from './footer';
+export { BackToTop } from './back-to-top';

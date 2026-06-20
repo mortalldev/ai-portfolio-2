@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Tursunboev Muhammad — Dasturiy injener va Frontend dasturchi",
+    "description": "React, Next.js va TypeScript yordamida CRM, ERP hamda e-commerce platformalarni yaratishda 4+ yillik tajribaga ega dasturiy injener. Frontend bo'yicha mutaxassis, full-stack imkoniyatlari bilan.",
+    "keywords": "Tursunboev Muhammad, Dasturiy injener, Frontend dasturchi, React, Next.js, TypeScript, Node.js, Toshkent, O'zbekiston portfolio",
+    "ogAlt": "Tursunboev Muhammadning portfoliosi — Dasturiy injener"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Men haqimda",
+    "skills": "Ko'nikmalar",
+    "projects": "Loyihalar",
+    "experience": "Tajriba",
+    "contact": "Aloqa",
+    "resume": "Rezyume",
+    "downloadCv": "CV yuklab olish",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish"
+  },
+  "theme": {
+    "toggle": "Mavzuni almashtirish",
+    "light": "Yorug'",
+    "dark": "Qorong'i"
+  },
+  "language": {
+    "label": "Til",
+    "select": "Tilni tanlang"
+  },
+  "hero": {
+    "available": "Yangi loyihalar uchun ochiqman",
+    "greeting": "Salom, men",
+    "name": "Muhammad",
+    "lastName": "Tursunboev",
+    "roles": [
+      "Dasturiy injener",
+      "Frontend dasturchi",
+      "React & Next.js mutaxassisi",
+      "UI injener"
+    ],
+    "summary": "Men tez, qulay va chiroyli animatsiyalangan veb-ilovalar yarataman. 4+ yil davomida real bizneslar uchun CRM, ERP va e-commerce platformalarini ishlab chiqdim — murakkab muammolarni toza va ishonchli mahsulotlarga aylantirib.",
+    "primaryCta": "Ishlarimni ko'rish",
+    "secondaryCta": "Keling, suhbatlashamiz",
+    "downloadCv": "CV yuklab olish",
+    "scrollHint": "Pastga aylantiring",
+    "locationLabel": "Toshkent, O'zbekistonda"
+  },
+  "stats": {
+    "years": "Yillik tajriba",
+    "projects": "Topshirilgan loyihalar",
+    "companies": "Ishlagan kompaniyalar",
+    "technologies": "O'zlashtirilgan texnologiyalar"
+  },
+  "about": {
+    "kicker": "Men haqimda",
+    "title": "G'oyalarni jilolangan, ishlab chiqarishga tayyor mahsulotlarga aylantiraman",
+    "lead": "Men Toshkentda yashovchi dasturiy injenerman — frontend hunariga chuqur e'tibor va full-stack tafakkuriga egaman.",
+    "paragraphs": [
+      "4+ yil davomida veb-ilovalarni loyihalab kelaman — tajribamning katta qismi React, Next.js va TypeScript bilan frontendda, shu bilan birga Node.js va NestJS yordamida API qurishda ham bemalol ishlayman.",
+      "Murakkab muammolarni yechishni va qiyin narsalarni o'rganishni yaxshi ko'raman. Unumdorlik, qulaylik va mahsulotni jonli his ettiradigan kichik detallarga e'tibor beraman. Shuningdek, geyming va texnologiya olamidagi yangiliklar meni chin dildan qiziqtiradi.",
+      "Yangi jamoalarga tez moslashaman, aniq muloqot qilaman va muddatlar ostida ishonchli natija beraman — xoh u to'liq LMS platforma, xoh aniq yo'naltirilgan logistika CRMi bo'lsin."
+    ],
+    "interestsTitle": "Koddan tashqari",
+    "interests": [
+      "Murakkab tizimlar",
+      "Geyming",
+      "Yangi texnologiyalar",
+      "Mentorlik",
+      "Muammo yechish"
+    ]
+  },
+  "skills": {
+    "kicker": "Ko'nikma va vositalar",
+    "title": "Men ishlatadigan texnologiyalar",
+    "subtitle": "CRM, ERP, e-commerce va EdTech platformalarida sayqallangan vositalar to'plami.",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "description": "Tez, qulay va animatsiyalangan interfeyslar yaratish."
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "Ishonchli API va ma'lumotlar qatlamini loyihalash."
+      },
+      "tools": {
+        "title": "Vositalar va jarayon",
+        "description": "Sifatli kodni ishonch bilan yetkazadigan barcha narsa."
+      },
+      "soft": {
+        "title": "Shaxsiy ko'nikmalar",
+        "description": "Odamlar va muammolar bilan qanday ishlashim."
+      }
+    },
+    "soft": {
+      "teamwork": "Yangi jamoaga tez qo'shilaman",
+      "learning": "Qiyin narsalarni o'rganishni yaxshi ko'raman",
+      "problemSolving": "Kuchli muammo yechish qobiliyati",
+      "deadlines": "Muddatlar ostida ishonchli"
+    }
+  },
+  "projects": {
+    "kicker": "Tanlangan ishlar",
+    "title": "Faxrlanadigan loyihalarim",
+    "subtitle": "Men loyihalab va ishlab chiqqan mahsulotlardan namunalar — real vaqtli logistikadan to keng ko'lamli EdTechgacha.",
+    "live": "Jonli ko'rish",
+    "source": "Manba kod",
+    "viewCase": "Batafsil",
+    "featured": "Tanlangan",
+    "ongoing": "Jarayonda",
+    "items": {
+      "mentour": {
+        "category": "EdTech platforma · LMS",
+        "tagline": "Butun maktab jarayonini raqamlashtirish",
+        "description": "Butun o'quv jarayonini raqamlashtiradigan keng ko'lamli maktab boshqaruv platformasi: mavzular va darslar, o'quvchilar, tashkilotlar va maktablar. To'liq RBAC, speaking & writing modullari, AI integratsiyasi va Meta lidlarini yig'adigan ichki CRM bilan qurilgan. To'liq moslashuvchan — va men faol ravishda yangi imkoniyatlar qo'shib boryapman."
+      },
+      "lactalis": {
+        "category": "Logistika CRM",
+        "tagline": "Nestlé / Lactalis uchun real vaqtli sut yetkazib berish nazorati",
+        "description": "Lactalis (Nestlé) uchun aniq CRM: qancha sut kelgani va chiqqani, kim va qaysi haydovchi yetkazgani, vaqt belgilari va foto-isbot bilan kuzatiladi. Suratlar AWS S3'da saqlanadi, yetkazib berishlar geolokatsiya bilan belgilanadi."
+      },
+      "goavto": {
+        "category": "Avtomobil marketpleysi",
+        "tagline": "Avtomobil sotib olish, sotish, ijara va sinov haydashi",
+        "description": "Sotib olish, sotish, bron qilish, ijara va sinov haydash jarayonlarini qamrab oladigan avtomobil marketpleysi — promo landing sahifalari va immersiv ko'rish uchun interaktiv 3D avtomobil ko'rinishlari bilan."
+      },
+      "oxygen": {
+        "category": "Ko'chmas mulk e-commerce",
+        "tagline": "Uylarni immersiv 3D sayohatlar bilan onlayn sotish",
+        "description": "Qancha uy borligi, sotilgani va qolgani, har bir mulk qayerda joylashganini ko'rsatadigan onlayn ko'chmas mulk savdosi platformasi — Three.js asosidagi immersiv 3D ko'rinishlar bilan haqiqiy makon hissini beradi."
+      },
+      "navbatda": {
+        "category": "Navbat boshqaruvi",
+        "tagline": "Real vaqtli onlayn navbat bron qilish",
+        "description": "Navbatlarni raqamlaydigan va boshqaradigan, odamlarga Socket.IO orqali real vaqtda o'z o'rnini onlayn bron qilish imkonini beradigan raqamli navbat tizimi — kutish va tartibsizlikni yo'qotadi."
+      }
+    }
+  },
+  "experience": {
+    "kicker": "Karyera yo'li",
+    "title": "Qayerda o'sganman",
+    "subtitle": "Besh kompaniya, bitta yo'nalish — har yili yaxshiroq dasturiy ta'minot yaratish.",
+    "present": "Hozirgacha",
+    "items": {
+      "tune": {
+        "role": "Dasturiy injener",
+        "description": "Mahsulot injeneriyasi jamoasida ishlab chiqarishga mo'ljallangan veb-ilovalarni qurish va kengaytirish — unumdor, qo'llab-quvvatlanadigan frontend arxitekturasiga e'tibor qaratgan holda."
+      },
+      "algoritm": {
+        "role": "Frontend mentor",
+        "description": "Bo'lajak dasturchilarni zamonaviy frontend (React, TypeScript) bo'yicha o'qitdim — kodni ko'rib chiqib, real loyihalar orqali yo'naltirdim."
+      },
+      "technova": {
+        "role": "Full-Stack dasturchi",
+        "description": "Node.js / React steki bo'ylab full-stack imkoniyatlarni yetkazdim — API dizaynidan to jilolangan, moslashuvchan UIgacha."
+      },
+      "realsoft": {
+        "role": "Frontend dasturchi",
+        "description": "CRM va e-commerce interfeyslarini ishlab chiqdim va qo'llab-quvvatladim, React bilan moslashuvchan, qulay UI yetkazib berdim."
+      },
+      "nisd": {
+        "role": "Frontend dasturchi",
+        "description": "Kasbiy yo'limni veb-interfeyslar qurishdan boshladim — dizaynlarni toza, funksional React komponentlariga aylantirdim."
+      }
+    }
+  },
+  "contact": {
+    "kicker": "Bog'lanish",
+    "title": "Keling, birgalikda zo'r narsa yaratamiz",
+    "subtitle": "Loyiha, ish o'rni yoki shunchaki savolingiz bormi? Menga xabar yuboring — u to'g'ridan-to'g'ri Telegramimga tushadi va men tez orada javob beraman.",
+    "directTitle": "Yoki men bilan to'g'ridan-to'g'ri bog'laning",
+    "form": {
+      "name": "To'liq ism",
+      "namePlaceholder": "masalan, Jasur Karimov",
+      "phone": "Telefon raqami",
+      "phonePlaceholder": "+998 90 123 45 67",
+      "message": "Xabar (ixtiyoriy)",
+      "messagePlaceholder": "Loyihangiz haqida bir oz aytib bering…",
+      "submit": "Xabar yuborish",
+      "submitting": "Yuborilmoqda…",
+      "successTitle": "Xabar yuborildi!",
+      "successText": "Bog'langaningiz uchun rahmat — imkon qadar tez javob beraman.",
+      "errorTitle": "Nimadir xato ketdi",
+      "errorText": "Xabaringiz yuborilmadi. Iltimos, qayta urinib ko'ring yoki men bilan to'g'ridan-to'g'ri bog'laning.",
+      "validation": {
+        "nameRequired": "Iltimos, to'liq ismingizni kiriting",
+        "nameShort": "Ism kamida 2 ta belgidan iborat bo'lishi kerak",
+        "phoneRequired": "Iltimos, telefon raqamingizni kiriting",
+        "phoneInvalid": "Iltimos, to'g'ri telefon raqamini kiriting",
+        "messageLong": "Xabar juda uzun (eng ko'pi 1000 ta belgi)"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Jilolangan veb-tajribalar yaratuvchi dasturiy injener va Frontend dasturchi.",
+    "navTitle": "Navigatsiya",
+    "socialTitle": "Boshqa joylarda",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "builtWith": "Next.js, GSAP va Tailwind CSS bilan loyihalandi va qurildi.",
+    "backToTop": "Yuqoriga qaytish"
+  },
+  "resume": {
+    "back": "Portfolioga qaytish",
+    "download": "PDF yuklab olish / chop etish",
+    "summaryTitle": "Professional xulosa",
+    "experienceTitle": "Ish tajribasi",
+    "projectsTitle": "Asosiy loyihalar",
+    "skillsTitle": "Texnik ko'nikmalar",
+    "softTitle": "Shaxsiy ko'nikmalar",
+    "educationTitle": "Tillar",
+    "present": "Hozirgacha",
+    "languages": {
+      "uz": "O'zbek — Ona tili",
+      "ru": "Rus — Erkin",
+      "en": "Ingliz — Professional ish darajasi"
+    }
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "description": "Siz qidirayotgan sahifa mavjud emas yoki ko'chirilgan.",
+    "back": "Bosh sahifaga"
+  }
+}

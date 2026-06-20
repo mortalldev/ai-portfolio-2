@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Tursunboev Muhammad — Software Engineer & Frontend Developer",
+    "description": "Software Engineer with 4+ years of experience building CRMs, ERPs and e-commerce platforms with React, Next.js and TypeScript. Frontend specialist, full-stack capable.",
+    "keywords": "Tursunboev Muhammad, Software Engineer, Frontend Developer, React, Next.js, TypeScript, Node.js, Tashkent, Uzbekistan portfolio",
+    "ogAlt": "Portfolio of Tursunboev Muhammad — Software Engineer"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "resume": "Resume",
+    "downloadCv": "Download CV",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "label": "Language",
+    "select": "Select language"
+  },
+  "hero": {
+    "available": "Available for new projects",
+    "greeting": "Hi, I'm",
+    "name": "Muhammad",
+    "lastName": "Tursunboev",
+    "roles": [
+      "Software Engineer",
+      "Frontend Developer",
+      "React & Next.js Specialist",
+      "UI Engineer"
+    ],
+    "summary": "I build fast, accessible and beautifully animated web applications. Over 4+ years I've shipped CRMs, ERPs and e-commerce platforms for real businesses — turning complex problems into clean, reliable products.",
+    "primaryCta": "View my work",
+    "secondaryCta": "Let's talk",
+    "downloadCv": "Download CV",
+    "scrollHint": "Scroll to explore",
+    "locationLabel": "Based in Tashkent, Uzbekistan"
+  },
+  "stats": {
+    "years": "Years of experience",
+    "projects": "Projects delivered",
+    "companies": "Companies worked with",
+    "technologies": "Technologies mastered"
+  },
+  "about": {
+    "kicker": "About me",
+    "title": "Turning ideas into polished, production-ready products",
+    "lead": "I'm a Software Engineer based in Tashkent with a deep focus on frontend craft and a full-stack mindset.",
+    "paragraphs": [
+      "For 4+ years I've been designing and building web applications — most of my experience is on the frontend with React, Next.js and TypeScript, while I'm equally comfortable shaping APIs with Node.js and NestJS.",
+      "I love untangling complex problems and learning hard things. I care about performance, accessibility and the small interaction details that make a product feel alive. I'm also genuinely passionate about gaming and everything happening in tech.",
+      "I adapt quickly to new teams, communicate clearly, and ship reliably under deadlines — whether I'm building an entire LMS platform or a focused logistics CRM."
+    ],
+    "interestsTitle": "Beyond the code",
+    "interests": [
+      "Complex systems",
+      "Gaming",
+      "New tech",
+      "Mentoring",
+      "Problem solving"
+    ]
+  },
+  "skills": {
+    "kicker": "Skills & tools",
+    "title": "The stack I build with",
+    "subtitle": "A toolkit refined across CRMs, ERPs, e-commerce and EdTech platforms.",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "description": "Crafting fast, accessible and animated interfaces."
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "Designing reliable APIs and data layers."
+      },
+      "tools": {
+        "title": "Tools & Workflow",
+        "description": "Everything that ships quality code with confidence."
+      },
+      "soft": {
+        "title": "Soft skills",
+        "description": "How I work with people and problems."
+      }
+    },
+    "soft": {
+      "teamwork": "Fast at gelling with a new team",
+      "learning": "Loves learning hard things",
+      "problemSolving": "Strong problem-solving instincts",
+      "deadlines": "Reliable under deadlines"
+    }
+  },
+  "projects": {
+    "kicker": "Selected work",
+    "title": "Projects I'm proud of",
+    "subtitle": "A selection of products I've designed and engineered — from real-time logistics to large-scale EdTech.",
+    "live": "Live demo",
+    "source": "Source",
+    "viewCase": "View details",
+    "featured": "Featured",
+    "ongoing": "In progress",
+    "items": {
+      "mentour": {
+        "category": "EdTech Platform · LMS",
+        "tagline": "Digitizing an entire school workflow",
+        "description": "A large-scale school management platform that digitizes the whole learning workflow: topics and lessons, students, organizations and schools. Built with full RBAC, speaking & writing modules, AI integration and an internal CRM that captures Meta leads. Fully responsive — and I'm actively shipping new features."
+      },
+      "lactalis": {
+        "category": "Logistics CRM",
+        "tagline": "Real-time milk-supply tracking for Nestlé / Lactalis",
+        "description": "A focused CRM for Lactalis (Nestlé): tracking how much milk arrives and leaves, who delivered it and which driver, with timestamps and photo proof. Photos stored on AWS S3 and deliveries pinned with geolocation."
+      },
+      "goavto": {
+        "category": "Automotive Marketplace",
+        "tagline": "Buy, sell, rent and test-drive cars",
+        "description": "An automotive marketplace covering buying, selling, booking, renting and test-drive flows, with promotional landing pages and interactive 3D car views for an immersive browsing experience."
+      },
+      "oxygen": {
+        "category": "Real-Estate E-commerce",
+        "tagline": "Selling homes online with immersive 3D tours",
+        "description": "An online property sales platform showing how many homes exist, sold and remaining, where each property is located, with immersive 3D views powered by Three.js for a true sense of space."
+      },
+      "navbatda": {
+        "category": "Queue Management",
+        "tagline": "Real-time online queue booking",
+        "description": "A digital queue system that numbers and manages queues and lets people book their spot online in real time over Socket.IO — removing the wait and the chaos."
+      }
+    }
+  },
+  "experience": {
+    "kicker": "Career path",
+    "title": "Where I've grown",
+    "subtitle": "Five companies, one direction — building better software every year.",
+    "present": "Present",
+    "items": {
+      "tune": {
+        "role": "Software Engineer",
+        "description": "Building and scaling production web applications inside a product engineering team, focused on performant, maintainable frontend architecture."
+      },
+      "algoritm": {
+        "role": "Frontend Mentor",
+        "description": "Mentored aspiring developers in modern frontend (React, TypeScript) — reviewing code and guiding them through real-world projects."
+      },
+      "technova": {
+        "role": "Full-Stack Developer",
+        "description": "Delivered full-stack features across the Node.js / React stack — from API design to polished, responsive UIs."
+      },
+      "realsoft": {
+        "role": "Frontend Developer",
+        "description": "Developed and maintained CRM and e-commerce interfaces, shipping responsive, accessible UI with React."
+      },
+      "nisd": {
+        "role": "Frontend Developer",
+        "description": "Started my professional journey building web interfaces and turning designs into clean, functional React components."
+      }
+    }
+  },
+  "contact": {
+    "kicker": "Get in touch",
+    "title": "Let's build something great together",
+    "subtitle": "Have a project, a role or just a question? Send me a message — it lands straight in my Telegram and I'll get back to you fast.",
+    "directTitle": "Or reach me directly",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "e.g. John Carter",
+      "phone": "Phone number",
+      "phonePlaceholder": "+998 90 123 45 67",
+      "message": "Message (optional)",
+      "messagePlaceholder": "Tell me a little about your project…",
+      "submit": "Send message",
+      "submitting": "Sending…",
+      "successTitle": "Message sent!",
+      "successText": "Thanks for reaching out — I'll reply as soon as I can.",
+      "errorTitle": "Something went wrong",
+      "errorText": "Your message couldn't be sent. Please try again or reach me directly.",
+      "validation": {
+        "nameRequired": "Please enter your full name",
+        "nameShort": "Name must be at least 2 characters",
+        "phoneRequired": "Please enter your phone number",
+        "phoneInvalid": "Please enter a valid phone number",
+        "messageLong": "Message is too long (max 1000 characters)"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Software Engineer & Frontend Developer crafting refined web experiences.",
+    "navTitle": "Navigation",
+    "socialTitle": "Elsewhere",
+    "rights": "All rights reserved.",
+    "builtWith": "Designed & built with Next.js, GSAP and Tailwind CSS.",
+    "backToTop": "Back to top"
+  },
+  "resume": {
+    "back": "Back to portfolio",
+    "download": "Download / Print PDF",
+    "summaryTitle": "Professional Summary",
+    "experienceTitle": "Work Experience",
+    "projectsTitle": "Key Projects",
+    "skillsTitle": "Technical Skills",
+    "softTitle": "Soft Skills",
+    "educationTitle": "Languages",
+    "present": "Present",
+    "languages": {
+      "uz": "Uzbek — Native",
+      "ru": "Russian — Fluent",
+      "en": "English — Professional working proficiency"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has moved.",
+    "back": "Back home"
+  }
+}
