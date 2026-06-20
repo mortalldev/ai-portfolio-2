@@ -20,7 +20,10 @@ export function About() {
         <div className="flex flex-col gap-6">
           <SectionHeading kicker={t('kicker')} title={t('title')} />
 
-          <Reveal as="p" className="text-pretty text-lg leading-relaxed text-foreground/90">
+          <Reveal
+            as="p"
+            className="text-pretty text-lg leading-relaxed text-foreground/90"
+          >
             {t('lead')}
           </Reveal>
 
@@ -65,7 +68,9 @@ export function About() {
                 <p className="font-display text-lg font-semibold">
                   {siteConfig.name}
                 </p>
-                <p className="text-sm text-muted-foreground">{siteConfig.role}</p>
+                <p className="text-sm text-muted-foreground">
+                  {siteConfig.role}
+                </p>
               </div>
             </div>
 

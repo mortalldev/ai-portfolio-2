@@ -39,13 +39,21 @@ export function Preloader() {
         ease: 'power2.inOut',
         onUpdate: () => setCount(Math.round(progress.value)),
       })
-        .to('[data-pre-bar]', { scaleX: 1, duration: 1.4, ease: 'power2.inOut' }, 0)
+        .to(
+          '[data-pre-bar]',
+          { scaleX: 1, duration: 1.4, ease: 'power2.inOut' },
+          0,
+        )
         .to(
           '[data-pre-content]',
           { y: -24, opacity: 0, duration: 0.5, ease: 'power2.in' },
           '+=0.15',
         )
-        .to(el, { yPercent: -100, duration: 0.85, ease: 'power4.inOut' }, '-=0.1')
+        .to(
+          el,
+          { yPercent: -100, duration: 0.85, ease: 'power4.inOut' },
+          '-=0.1',
+        )
         .set(el, { display: 'none' });
     },
     { scope: root, dependencies: [reduced] },
@@ -57,7 +65,7 @@ export function Preloader() {
       className="fixed inset-0 z-[10000] flex items-center justify-center bg-background"
     >
       <div data-pre-content className="flex flex-col items-center gap-6">
-        <span className="font-display text-3xl font-bold tracking-tight text-gradient">
+        <span className="text-gradient font-display text-3xl font-bold tracking-tight">
           {initials}
         </span>
         <div className="h-px w-44 overflow-hidden bg-border">

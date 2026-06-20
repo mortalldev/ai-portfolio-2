@@ -12,7 +12,11 @@ interface MagneticProps {
 }
 
 /** Pulls its child toward the cursor on hover — used for primary CTAs & icons. */
-export function Magnetic({ children, className, strength = 0.4 }: MagneticProps) {
+export function Magnetic({
+  children,
+  className,
+  strength = 0.4,
+}: MagneticProps) {
   const ref = useRef<HTMLSpanElement>(null);
   const reduced = usePrefersReducedMotion();
 

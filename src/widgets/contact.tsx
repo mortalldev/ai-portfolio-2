@@ -57,7 +57,10 @@ export function Contact() {
                   aria-label={social.name}
                   className="grid h-10 w-10 place-items-center rounded-full border border-border/60 bg-card/50 text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
                 >
-                  <SocialIcon name={social.icon} className="h-[1.05rem] w-[1.05rem]" />
+                  <SocialIcon
+                    name={social.icon}
+                    className="h-[1.05rem] w-[1.05rem]"
+                  />
                 </a>
               ))}
             </div>

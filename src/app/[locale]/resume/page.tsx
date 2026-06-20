@@ -54,7 +54,7 @@ export default async function ResumePage({
       </div>
 
       {/* Resume sheet */}
-      <article className="mx-auto max-w-[820px] bg-white px-8 py-10 shadow-sm print:max-w-none print:px-0 print:py-0 print:shadow-none sm:px-12 sm:py-12">
+      <article className="mx-auto max-w-[820px] bg-white px-8 py-10 shadow-sm sm:px-12 sm:py-12 print:max-w-none print:px-0 print:py-0 print:shadow-none">
         {/* Header */}
         <header className="border-b border-zinc-200 pb-6">
           <h1 className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl">

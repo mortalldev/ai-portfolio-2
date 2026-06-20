@@ -16,7 +16,12 @@ export function createContactSchema(t: Translate) {
       .trim()
       .min(1, t('phoneRequired'))
       .regex(/^[+()\d\s-]{7,20}$/, t('phoneInvalid')),
-    message: z.string().trim().max(1000, t('messageLong')).optional().default(''),
+    message: z
+      .string()
+      .trim()
+      .max(1000, t('messageLong'))
+      .optional()
+      .default(''),
   });
 }
 

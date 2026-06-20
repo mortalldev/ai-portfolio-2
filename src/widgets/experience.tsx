@@ -48,7 +48,12 @@ export function Experience() {
                 </div>
 
                 {/* Content */}
-                <div className={cn('flex flex-col gap-1.5', isLast ? 'pb-0' : 'pb-10')}>
+                <div
+                  className={cn(
+                    'flex flex-col gap-1.5',
+                    isLast ? 'pb-0' : 'pb-10',
+                  )}
+                >
                   <span className="font-mono text-xs tracking-wide text-primary">
                     {period}
                   </span>

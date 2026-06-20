@@ -11,7 +11,7 @@ export default function NotFound() {
   return (
     <main className="relative flex min-h-svh flex-col items-center justify-center px-6 text-center">
       <Aurora />
-      <p className="font-display text-8xl font-bold text-gradient sm:text-9xl">
+      <p className="text-gradient font-display text-8xl font-bold sm:text-9xl">
         404
       </p>
       <h1 className="mt-6 font-display text-2xl font-bold sm:text-3xl">

@@ -34,7 +34,10 @@ export async function POST(request: Request) {
   const chatId = process.env.TELEGRAM_CHAT_ID;
   if (!token || !chatId) {
     console.error('Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID env vars.');
-    return NextResponse.json({ error: 'Server not configured' }, { status: 500 });
+    return NextResponse.json(
+      { error: 'Server not configured' },
+      { status: 500 },
+    );
   }
 
   const { name, phone, message } = parsed.data;
@@ -43,7 +46,9 @@ export async function POST(request: Request) {
     '',
     `👤 <b>Name:</b> ${escapeHtml(name)}`,
     `📞 <b>Phone:</b> ${escapeHtml(phone)}`,
-    message ? `💬 <b>Message:</b>\n${escapeHtml(message)}` : '💬 <i>No message</i>',
+    message
+      ? `💬 <b>Message:</b>\n${escapeHtml(message)}`
+      : '💬 <i>No message</i>',
   ].join('\n');
 
   try {

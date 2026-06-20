@@ -65,8 +65,15 @@ export function AnimatedText({
       aria-label={text}
     >
       {words.map((word, i) => (
-        <span key={`${word}-${i}`} className="inline-block overflow-hidden py-[0.05em]">
-          <span data-word className="inline-block will-change-transform" aria-hidden>
+        <span
+          key={`${word}-${i}`}
+          className="inline-block overflow-hidden py-[0.05em]"
+        >
+          <span
+            data-word
+            className="inline-block will-change-transform"
+            aria-hidden
+          >
             {word}
             {i < words.length - 1 ? ' ' : ''}
           </span>

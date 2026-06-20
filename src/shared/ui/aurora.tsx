@@ -10,9 +10,9 @@ export function Aurora({ className }: { className?: string }) {
       )}
       aria-hidden
     >
-      <div className="animate-aurora absolute -left-20 top-[-10%] h-[36rem] w-[36rem] rounded-full bg-primary/20 blur-[120px]" />
-      <div className="animate-aurora absolute right-[-10%] top-1/3 h-[28rem] w-[28rem] rounded-full bg-accent/20 blur-[120px] [animation-delay:-7s]" />
-      <div className="bg-grid-pattern absolute inset-0 bg-[size:64px_64px] [mask-image:radial-gradient(ellipse_at_center,black,transparent_72%)]" />
+      <div className="absolute -left-20 top-[-10%] h-[36rem] w-[36rem] animate-aurora rounded-full bg-primary/20 blur-[120px]" />
+      <div className="absolute right-[-10%] top-1/3 h-[28rem] w-[28rem] animate-aurora rounded-full bg-accent/20 blur-[120px] [animation-delay:-7s]" />
+      <div className="absolute inset-0 bg-grid-pattern bg-[size:64px_64px] [mask-image:radial-gradient(ellipse_at_center,black,transparent_72%)]" />
     </div>
   );
 }

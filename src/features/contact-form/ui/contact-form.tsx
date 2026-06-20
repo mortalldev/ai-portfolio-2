@@ -100,11 +100,7 @@ export function ContactForm() {
 
   return (
     <form onSubmit={onSubmit} noValidate className="flex flex-col gap-5">
-      <Field
-        label={t('name')}
-        error={errors.name}
-        htmlFor="contact-name"
-      >
+      <Field label={t('name')} error={errors.name} htmlFor="contact-name">
         <input
           id="contact-name"
           name="name"
@@ -132,7 +128,11 @@ export function ContactForm() {
         />
       </Field>
 
-      <Field label={t('message')} error={errors.message} htmlFor="contact-message">
+      <Field
+        label={t('message')}
+        error={errors.message}
+        htmlFor="contact-message"
+      >
         <textarea
           id="contact-message"
           name="message"
@@ -141,7 +141,11 @@ export function ContactForm() {
           value={values.message}
           onChange={(e) => update('message', e.target.value)}
           aria-invalid={!!errors.message}
-          className={cn(inputClass, 'resize-none', errors.message && 'border-red-500/70')}
+          className={cn(
+            inputClass,
+            'resize-none',
+            errors.message && 'border-red-500/70',
+          )}
         />
       </Field>
 

@@ -34,7 +34,7 @@ export function Projects() {
                 className={cn(spanFull && 'md:col-span-2')}
               >
                 <article className="card-surface hover-glow group relative flex h-full flex-col gap-5 overflow-hidden rounded-2xl p-6 sm:p-8">
-                  <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-primary/10 blur-3xl transition-opacity duration-500 group-hover:opacity-100 opacity-0" />
+                  <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-primary/10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100" />
 
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex flex-col gap-1">

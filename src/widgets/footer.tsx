@@ -85,7 +85,9 @@ export function Footer() {
           <p className="text-xs text-muted-foreground">
             © {year} {siteConfig.name}. {tFooter('rights')}
           </p>
-          <p className="text-xs text-muted-foreground">{tFooter('builtWith')}</p>
+          <p className="text-xs text-muted-foreground">
+            {tFooter('builtWith')}
+          </p>
         </div>
       </Container>
     </footer>

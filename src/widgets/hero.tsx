@@ -48,7 +48,7 @@ export function Hero() {
     <section
       id="home"
       ref={scope}
-      className="relative flex min-h-[100svh] items-center overflow-hidden pt-28 pb-20 lg:pt-20"
+      className="relative flex min-h-[100svh] items-center overflow-hidden pb-20 pt-28 lg:pt-20"
     >
       <Container className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
         {/* ── Copy ─────────────────────────────────────────────── */}
@@ -58,14 +58,17 @@ export function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-border/70 bg-card/50 px-3.5 py-1.5 text-xs font-medium text-muted-foreground"
           >
             <span className="relative flex h-2 w-2">
-              <span className="animate-pulse-ring absolute inline-flex h-full w-full rounded-full bg-emerald-400/70" />
+              <span className="absolute inline-flex h-full w-full animate-pulse-ring rounded-full bg-emerald-400/70" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
             </span>
             {t('available')}
           </span>
 
           <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl">
-            <span data-hero className="block text-muted-foreground/80 text-lg font-medium sm:text-xl">
+            <span
+              data-hero
+              className="block text-lg font-medium text-muted-foreground/80 sm:text-xl"
+            >
               {t('greeting')}
             </span>
             <AnimatedText
@@ -130,7 +133,10 @@ export function Hero() {
                   aria-label={s.name}
                   className="grid h-9 w-9 place-items-center rounded-full text-muted-foreground transition-colors hover:bg-muted hover:text-primary"
                 >
-                  <SocialIcon name={s.icon} className="h-[1.05rem] w-[1.05rem]" />
+                  <SocialIcon
+                    name={s.icon}
+                    className="h-[1.05rem] w-[1.05rem]"
+                  />
                 </a>
               ))}
             </div>
@@ -138,7 +144,10 @@ export function Hero() {
         </div>
 
         {/* ── Visual ───────────────────────────────────────────── */}
-        <div data-hero className="relative mx-auto w-full max-w-md lg:max-w-none">
+        <div
+          data-hero
+          className="relative mx-auto w-full max-w-md lg:max-w-none"
+        >
           <HeroVisual />
         </div>
       </Container>
@@ -174,10 +183,7 @@ function HeroRoles() {
   );
 
   useEffect(() => {
-    const id = setInterval(
-      () => setIndex((p) => (p + 1) % roles.length),
-      2600,
-    );
+    const id = setInterval(() => setIndex((p) => (p + 1) % roles.length), 2600);
     return () => clearInterval(id);
   }, [roles.length]);
 
@@ -230,7 +236,7 @@ function HeroVisual() {
       {/* Core */}
       <div className="card-surface absolute inset-[18%] flex flex-col items-center justify-center gap-4 rounded-[2rem] shadow-card">
         <div className="absolute inset-0 -z-10 rounded-[2rem] bg-radial-fade" />
-        <span className="font-display text-7xl font-bold text-gradient sm:text-8xl">
+        <span className="text-gradient font-display text-7xl font-bold sm:text-8xl">
           {initials}
         </span>
         <span className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">
@@ -248,7 +254,10 @@ function HeroVisual() {
             tech.className,
           )}
         >
-          <TechIcon name={tech.name} className="h-6 w-6 text-foreground sm:h-7 sm:w-7" />
+          <TechIcon
+            name={tech.name}
+            className="h-6 w-6 text-foreground sm:h-7 sm:w-7"
+          />
         </div>
       ))}
     </div>
